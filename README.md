@@ -1,1 +1,1 @@
-# rangos-api-qa
+# Rangos Plataform
