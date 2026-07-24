@@ -121,7 +121,7 @@ case $COMMAND in
       docker-compose exec "$API_SERVICE" pytest
     ;;
     test:cov)
-      docker-compose exec "$API_SERVICE" pytest --cov=app --cov-report=term-missing
+      docker-compose exec "$API_SERVICE" pytest --cov=app --cov-report=html
     ;;
     lint)
       docker-compose exec "$API_SERVICE" ruff check .
